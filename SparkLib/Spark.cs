@@ -27,17 +27,17 @@ namespace SparkNet
             }
         }
 
-        public static String Render(params double[] numbers)
+        public static string Render(params double[] numbers)
         {
             return Render(data: numbers);
         }
-
+        
         /// <summary>
         /// Convert numbers to spark chart strings.
         /// </summary>
         /// <param name="data">List or Array of numbers</param>
         /// <returns>empty string if <paramref name="data"/>is <code>null</code> or empty.</returns>
-        public static String Render(IList<double> data)
+        public static string Render(IList<double> data)
         {
             var ticks = TickProvider.Ticks;
 
@@ -60,7 +60,7 @@ namespace SparkNet
                 int tick = (int) ((Math.Abs(Math.Round(d) - d) < 1e-10) ? Math.Round(d) : Math.Floor((val - min) / step));
                 res[i] = ticks[tick];
             }
-            return new string(res);
+            return TickProvider.Assemble(res);
         }
     }
 }

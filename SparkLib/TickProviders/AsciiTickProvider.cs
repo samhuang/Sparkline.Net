@@ -14,5 +14,10 @@
                 return _ticks;
             }
         }
+
+        public string Assemble(char[] ticks)
+        {
+            return new string(ticks);
+        }
     }
 }

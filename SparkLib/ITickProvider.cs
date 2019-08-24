@@ -5,5 +5,7 @@ namespace SparkNet
     public interface ITickProvider
     {
         char[] Ticks { get; }
+
+        string Assemble(char[] res);
     }
 }

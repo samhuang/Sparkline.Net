@@ -65,6 +65,15 @@ namespace SparkTest
         public void Test8()
         {
             Assert.AreEqual(@"▁▂▄▆█", Spark.Render(new double[] {1, 2, 3, 4, 5}));
+            Spark.TickProvider = new VerticalTickProvider();
+            Assert.AreEqual(
+                @"▏
+▎
+▍
+▌
+▋"
+                , Spark.Render(new double[] {1, 2, 3, 4, 5}));
+                                        
         }
 
         [TestMethod]

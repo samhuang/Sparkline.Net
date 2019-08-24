@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkLib", "SparkLib\SparkL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkTest", "SparkTest\SparkTest.csproj", "{BE2F4847-5C50-4C41-BBA4-C49708B25EBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparklineTests", "SparklineTests\SparklineTests.csproj", "{6CF32518-4A00-4E7A-BF4B-86A50E06672E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{BE2F4847-5C50-4C41-BBA4-C49708B25EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE2F4847-5C50-4C41-BBA4-C49708B25EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE2F4847-5C50-4C41-BBA4-C49708B25EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF32518-4A00-4E7A-BF4B-86A50E06672E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF32518-4A00-4E7A-BF4B-86A50E06672E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF32518-4A00-4E7A-BF4B-86A50E06672E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF32518-4A00-4E7A-BF4B-86A50E06672E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
